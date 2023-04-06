@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #3d9775;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.animated-ellipses {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipses steps(4, end) 900ms infinite;
+  width: 0px;
+}
+
+
+@keyframes ellipses {
+  to {
+    width: 60px;
+  }
+}
+
+@-webkit-keyframes ellipses {
+  to {
+    width: 60px;
+  }
+}
