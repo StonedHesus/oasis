@@ -1,0 +1,41 @@
+{
+    "plants":{
+        "fields": [
+            "id",
+            "name",
+            "dailyWater",
+            "dailySun",
+            "dailyFertilizer"
+        ],
+        "pine": {
+            "id": 1,
+            "name": "Pine",
+            "dailyWater": 0.5,
+            "dailySun": 0.5,
+            "dailyFertilizer": 0.5
+        },
+        "oak": {
+            "id": 2,
+            "name": "Oak",
+            "dailyWater": 0.5,
+            "dailySun": 0.5,
+            "dailyFertilizer": 0.5
+        }
+    },
+    "animals": {
+        "cow": {
+            "id": 1,
+            "name": "Cow",
+            "dailyWater": 0.5,
+            "dailySun": 0.5,
+            "dailyFertilizer": 0.5
+        },
+        "chicken": {
+            "id": 2,
+            "name": "Chicken",
+            "dailyWater": 0.5,
+            "dailySun": 0.5,
+            "dailyFertilizer": 0.5
+        }
+    }
+}
